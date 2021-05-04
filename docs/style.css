@@ -245,6 +245,24 @@
     transition: all 1s;
 }
 
+.directorio_m{
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+}
+
+.directorio_m img{
+    display: block;
+    object-fit: contain;
+    margin: auto;
+}
+
+.directorio_m p{
+    padding: 1rem 0 1rem 0;
+    margin-bottom: 0;
+}
+
 .btn_azul:hover {
     color: #ffffff;
     text-decoration: none;
