@@ -15,6 +15,10 @@
     justify-content: space-between;
 }
 
+.alinear_co{
+    text-align: left;
+}
+
 .menu_logo img {
     display: block;
     object-fit: contain;
@@ -25,6 +29,15 @@
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.nuevo_co{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.nuevo_co h4{
+    padding: 2.5rem 0;
 }
 
 .menu_redes i {
@@ -174,6 +187,11 @@
     border-radius: 1rem;
     transform: translateY(-50%);
     background-color: #ffffff;
+}
+
+.partes {
+    display: block;
+    margin: auto;
 }
 
 .banner_bonito {
@@ -342,6 +360,13 @@
 }
 
 @media only screen and (max-width: 1080px) {
+    .alinear_co{
+        text-align: center;
+    }
+    .nuevo_co{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
     .banner_bonito {
         position: relative;
         z-index: 10;

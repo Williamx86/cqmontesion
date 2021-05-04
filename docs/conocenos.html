@@ -14,6 +14,7 @@
 
     <!-- Mis estilos -->
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/15114ea565.js" crossorigin="anonymous"></script>
@@ -34,8 +35,10 @@
                         <p class="menu_espacio"><i class="fas fa-phone fa-flip-horizontal"></i> (+503) 2441-1945</p>
                         <p class="menu_espacio"><i class="fas fa-envelope"></i> marketing@cqmontesion.com.sv</p>
                         <div class="d_flex menu_espacio">
-                            <a class="pr-3" href=""><i class="fab fa-facebook icn_naranja"></i></a>
-                            <a href=""><i class="fab fa-instagram-square icn_naranja"></i></a>
+                            <a class="pr-3" target="_blank" href="https://www.facebook.com/CQMonteSion"><i
+                                    class="fab fa-facebook icn_naranja"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/cqmontesion/?hl=es-la"><i
+                                    class="fab fa-instagram-square icn_naranja"></i></a>
                         </div>
                     </div>
                 </div>
@@ -99,6 +102,9 @@
                     <h1>Cirugía general</h1>
                 </div>
                 <div class="carousel-item texto_slider">
+                    <img src="img/slider_4.png" class="d-block w-100 img_slider_paginas">
+                </div>
+                <div class="carousel-item texto_slider">
                     <img src="img/slider_3.jpg" class="d-block w-100 img_slider_paginas">
                     <h1>Cirugía laparoscópica</h1>
                 </div>
@@ -125,24 +131,23 @@
     <div class="container">
         <div class="row justify-content-around">
             <div class="col-10 col-md-10">
-                <h3 class="text-center titulos_parrafos">QUIENES SOMOS
+                <h3 class="text-center titulos_parrafos" data-aos="zoom-in-up">QUIENES SOMOS
                     <hr>
                 </h3>
                 <p class="pb-5 text-justify parrafos">
-                    En CQ Monte Sion regalamos sonrisas, damos armonía y creamos lazos que te hacen sentir como en casa. 
-                    Somos un hospital ubicado en Santa Ana, expertos en el área de ortopedia, traumatología y atención a cirugías especializadas; nos caracterizamos por nuestra calidez humana y especializada.
+                    En CQ Monte Sion regalamos sonrisas, damos armonía y creamos lazos que te hacen sentir como en casa.
+                    Somos un hospital ubicado en Santa Ana, expertos en el área de ortopedia, traumatología y atención a
+                    cirugías especializadas; nos caracterizamos por nuestra calidez humana y especializada.
 
-                    Serás atendido a la altura de cualquier país de primer mundo con nuestros tratamientos quirúrgicos y no quirúrgicos de vanguardia con propuestas mucho más accesibles.
+                    Serás atendido a la altura de cualquier país de primer mundo con nuestros tratamientos quirúrgicos y
+                    no quirúrgicos de vanguardia con propuestas mucho más accesibles.
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="row justify-content-around">
-            <div class="col-10 col-md-10">
-                <h3 class="text-center titulos_parrafos">¿Por qué nosotros? </h3>
-            </div>
             <div class="col-10 col-md-4 tresjuntos py-5">
                 <img src="img/metodos.png" alt="">
                 <h4 class="text-center py-5">Metodos innovadores y comprobados</h4>
@@ -156,6 +161,40 @@
                 <h4 class="text-center py-5">Paquetes quirurgicos con precios adecuados</h4>
             </div>
         </div>
+    </div> -->
+
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+
+            <div class="col-10 col-md-10" data-aos="zoom-in-up">
+                <h3 class="text-center titulos_parrafos">¿Por qué nosotros? </h3>
+            </div>
+
+            <div class="col-10 col-md-6 nuevo_co text-center parrafos">
+                <h4 class="alinear_co">&#10003; Metodos innovadores y comprobados</h4>
+            </div>
+
+            <div class="col-10 col-md-4 nuevo_co">
+                <img class="partes" data-aos="fade-left" src="img/metodos.png" alt="">
+            </div>
+
+            <div class="col-10 col-md-6 nuevo_co text-center parrafos">
+                <h4 class="alinear_co">&#10003; Médicos y enfermeras altamente capacitados</h4>
+            </div>
+
+            <div class="col-10 col-md-4 nuevo_co">
+                <img class="partes" data-aos="fade-left" src="img/doctor.png" alt="">
+            </div>
+            
+            <div class="col-10 col-md-6 nuevo_co text-center parrafos">
+                <h4 class="alinear_co">&#10003; Paquetes quirurgicos con precios adecuados</h4>
+            </div>
+
+            <div class="col-10 col-md-4 nuevo_co">
+                <img class="partes" data-aos="fade-left" src="img/precio.png" alt="">
+            </div>
+
+        </div>
     </div>
 
     <footer class="foot">
@@ -166,19 +205,20 @@
                     <div class="pt-3 px-5 foot_naranja">
                         <form>
                             <div class="form-group">
-                              <input type="email" class="form-control" id="nombre" placeholder="Nombre">
+                                <input type="email" class="form-control" id="nombre" placeholder="Nombre">
                             </div>
                             <div class="form-group">
-                              <input type="email" class="form-control" id="mail" placeholder="E-mail">
+                                <input type="email" class="form-control" id="mail" placeholder="E-mail">
                             </div>
                             <div class="form-group">
-                              <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
+                                <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="comentarios" rows="3" placeholder="Comentarios"></textarea>
+                                <textarea class="form-control" id="comentarios" rows="3"
+                                    placeholder="Comentarios"></textarea>
                             </div>
                             <button type="submit" class="btn_naranja">Enviar</button>
-                          </form>
+                        </form>
                     </div>
                 </div>
                 <div class="col-10 col-md-4 foot_seccion">
@@ -201,19 +241,22 @@
                     <div class="py-3 px-5 foot_naranja">
                         <h5> <i class="fas fa-map-marker-alt i_naranja"></i> San Salvador</h5>
                         <p>
-                            Centro Medico Las Peña, calle circunvalación #189, atrás de Centro comercial Balam Quitze, Colonia Escalón, San Salvador.
+                            Centro Medico Las Peña, calle circunvalación #189, atrás de Centro comercial Balam Quitze,
+                            Colonia Escalón, San Salvador.
                         </p>
                     </div>
                     <div class="py-3 px-5 foot_naranja">
                         <h5><i class="fas fa-map-marker-alt i_naranja"></i> Santa Ana</h5>
                         <p>
-                            Calle Libertad Oriente entre 17 y 19 av. norte a pocos pasos de la Unidad de Emergencia del Hospital San Juan de Dios Santa Ana (El Salvador)
+                            Calle Libertad Oriente entre 17 y 19 av. norte a pocos pasos de la Unidad de Emergencia del
+                            Hospital San Juan de Dios Santa Ana (El Salvador)
                         </p>
                     </div>
                     <div class="py-3 px-5 foot_naranja">
                         <h5><i class="fas fa-map-marker-alt i_naranja"></i> Metapán</h5>
                         <p>
-                            Avenida Isidro Menéndez y 5 Calle Oriente Barrio San Pedro, Metapán Clínicas Medicas, ex Centro Pediátrico Metapaneco.
+                            Avenida Isidro Menéndez y 5 Calle Oriente Barrio San Pedro, Metapán Clínicas Medicas, ex
+                            Centro Pediátrico Metapaneco.
                         </p>
                     </div>
                 </div>
@@ -224,11 +267,17 @@
     <span class="ir-arriba"> <i class="fas fa-chevron-up"></i> </span>
 
     <!-- Archivos necesarios Boostarp -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
