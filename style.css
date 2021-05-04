@@ -171,7 +171,6 @@
 }
 
 .rodilla_nueva {
-    width: 90%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -250,12 +249,27 @@
     text-align: center;
     border: 1px solid #000000;
     border-radius: 0.5rem;
+    transition: 0.7s all;
+}
+
+.directorio_m:hover{
+    transform: scale(1.15);
 }
 
 .directorio_m img{
     display: block;
     object-fit: contain;
     margin: auto;
+}
+
+.direc_e{
+    text-decoration: none;
+    color: #000000;
+}
+
+.direc_e:hover{
+    text-decoration: none;
+    color: #000000;
 }
 
 .directorio_m p{
