@@ -15,7 +15,7 @@
     justify-content: space-between;
 }
 
-.alinear_co{
+.alinear_co {
     text-align: left;
 }
 
@@ -31,12 +31,12 @@
     align-items: center;
 }
 
-.nuevo_co{
+.nuevo_co {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.nuevo_co h4{
+.nuevo_co h4 {
     padding: 2.5rem 0;
 }
 
@@ -183,7 +183,7 @@
     background-color: #ffffff;
 }
 
-.redondo_uno{
+.redondo_uno {
     border-radius: 1rem;
     transform: translateY(-50%);
     background-color: #ffffff;
@@ -234,6 +234,8 @@
 }
 
 .btn_azul {
+    display: block;
+    width: 100%;
     background-color: var(--azul);
     border: 0;
     color: #ffffff;
@@ -359,14 +361,64 @@
     font-size: 1.2rem;
 }
 
+.aplica {
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.entrada {
+    padding: 1.5rem 1.8rem;
+    border-radius: 0.5rem;
+    border: 0.5px solid rgb(133, 133, 133);
+    text-align: justify;
+}
+
+.btn-blog{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: var(--naranja);
+    padding:0.5rem 0;
+    margin: 1rem 0 0.5rem 0;
+    border: 1px solid var(--naranja);
+    transition: 0.3s all;
+}
+
+.btn-blog:hover{
+    text-decoration: none;
+    color: var(--azul);
+    background-color: #ffffff;
+    border: 1px solid var(--azul);
+}
+
+.entrada h3 {
+    padding-top: 1rem;
+}
+
+.entrada p {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.entrada img {
+    padding-top: 0.5rem;
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
 @media only screen and (max-width: 1080px) {
-    .alinear_co{
+    .alinear_co {
         text-align: center;
     }
-    .nuevo_co{
+
+    .nuevo_co {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
+
     .banner_bonito {
         position: relative;
         z-index: 10;
