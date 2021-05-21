@@ -22,7 +22,25 @@
 .menu_logo img {
     display: block;
     object-fit: contain;
-    width: 275px;
+    width: 250px;
+}
+
+.cajota{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.cajita_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.cajita_dos{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .menu_info {
@@ -44,8 +62,22 @@
     color: var(--naranja);
 }
 
+.menu_redes a {
+    text-decoration: none;
+}
+
+.menu_redes a:hover {
+    text-decoration: none;
+}
+
 .menu_redes {
     display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.parra{
+    margin: 0;
 }
 
 .menu_espacio {
@@ -54,6 +86,10 @@
 
 .icn_naranja {
     font-size: 1.5rem;
+}
+
+.icn_naranja_dos {
+    font-size: 1.4rem;
 }
 
 .menu_secundario {
@@ -155,6 +191,22 @@
     transform: translate(-50%, -50%);
 }
 
+.texto_slider_home {
+    position: relative;
+}
+
+.texto_slider_home h2 {
+    position: absolute;
+    color: #ffffff;
+    text-shadow: 1px 0px 30px rgba(150, 150, 150, 1);
+    font-size: 3.50rem;
+    text-align: center;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff6103' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
@@ -183,6 +235,12 @@
 }
 
 .redondo_uno {
+    border-radius: 1rem;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+}
+
+.redondo_dos {
     border-radius: 1rem;
     transform: translateY(-50%);
     background-color: #ffffff;
@@ -501,6 +559,30 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .texto_slider_home h2 {
+        position: absolute;
+        color: #ffffff;
+        text-shadow: 1px 0px 30px rgba(150, 150, 150, 1);
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .redondo_dos {
+        border-radius: 1rem;
+        transform: translateY(0);
+        background-color: #ffffff;
+    }
+
+    .copycopy{
+        background-color: var(--azul);
+        color: #ffffff;
     }
 }
 
