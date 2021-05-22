@@ -13,7 +13,8 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- Mis estilos -->
-    <link rel="stylesheet" href="style.css?ver=2.0">
+    <link rel="stylesheet" href="style.css?ver=20.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/15114ea565.js" crossorigin="anonymous"></script>
@@ -96,82 +97,70 @@
     </header>
 
     <div class="container banner_bonito">
-        <div class="row justify-content-around py-5 shadow-lg redondo">
+        <div class="row justify-content-around py-5 redondo">
             <div class="col-10 col-md-5 secciondos">
                 <img class="rodilla_nueva" src="img/rodilla-nueva.png">
             </div>
         </div>
-    </div>
-
-    <div class="slider_b slider_b_mod">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active texto_slider">
-                    <img src="img/slider_white.png" class="d-block w-100 img_slider_paginas">
-                    <h3><i>“SOMOS EXPERTOS EN CAMBIAR LA VIDA DE LAS PERSONAS”</i></h3>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+        <hr>
     </div>
 
     <div class="container">
         <div class="row justify-content-around pb-5">
-            <div class="col-10 col-md-6 pt-4 pb-5 text-center parrafos">
-                Es un programa exclusivo de Centro Quirúrgico Monte Sion, diseñado con el propósito de <b>solucionar</b>
-                y <b>mejorar</b> la <b>calidad de vida</b> de todo paciente que necesita un reemplazo articular (rodilla
-                nueva); ya sea por artritis, desgaste de rodilla y dolor agudo que le imposibilita caminar.
 
+            <div class="col-10 col-md-10 porrr py-5">
+                <h3><i>“SOMOS EXPERTOS EN CAMBIAR LA VIDA DE LAS PERSONAS”</i></h3>
+                <img class="raya" src="img/raya.png">
+            </div>
+
+            <div class="col-10 col-md-5 pt-4 pb-5">
+                <img data-aos="fade-right" width="100%" class="img_plan" src="img/rod.png" alt="">
+            </div>
+
+            <div class="col-10 col-md-6 pt-4 pb-5 text-justify parrafos">
+                Es un programa exclusivo de Centro Quirúrgico Monte Sion, creado por nuestro ortopeda Dr. Oscar A.
+                Gómez, diseñado con el propósito de solucionar y mejorar la calidad de vida de todo paciente que
+                necesita un reemplazo articular (rodilla nueva); ya sea por artritis, desgaste de rodilla y dolor agudo
+                que le imposibilita caminar. <br>
+
+                <br>
                 Rodilla nueva ofrece a los salvadoreños en el país, a los salvadoreños en el extranjero y a los vecinos
                 de la región, prótesis total de rodilla a la altura de cualquier país de primer mundo con propuestas
                 mucho más accesibles.
 
-                La cirugía de prótesis total de rodilla es un procedimiento muy caro, nos gusta poder ayudar a todas las
-                personas que necesiten de este tipo de cirugía, por eso se creó este <b>“paquete accesible para ti”</b>.
-
-                <div class="pt-5 btn_centrado">
-                    <a href="aplicar.html" class="btn_naranja">Aplicar</a>
+                <div class="pt-5">
+                    <a href="aplicar.html" class="btn_celeste_dos">Aplicar aquí</a>
                 </div>
 
-            </div>
-            <div class="col-10 col-md-5 pt-4 pb-5">
-                <img width="100%" class="img_plan" src="img/rod.png" alt="">
             </div>
         </div>
     </div>
 
-    <div class="celeste">
+    <div class="celeste" onmouseover="animateValue(obj, 1, 100, 4000)">
         <div class="container">
             <div class="row justify-content-around py-5">
+                <div class="col-10 col-md-10">
+                    <h3 style="color: 1D2B4E;text-align: center;">¿POR QUÉ NOSOTROS?</h3>
+                    <img class="raya" src="img/raya_dos.png">
+                </div>
                 <div class="col-10 col-md-4 tresjuntos py-5">
-                    <img src="img/experiencia.png" alt="">
+                    <img src="img/Capa_2.png" alt="">
                     <h4 class="text-center pt-5">EXPERIENCIA</h4>
-                    <p class="text-center py-3 descrip">
-                        Tu mejor opción para tu rodilla desgastada
+                </div>
+                <div class="col-10 col-md-4 tresjuntos py-5">
+                    <img src="img/Capa_3.png" alt="">
+                    <p style="margin: 0;" class="text-center pt-3 descrip">
+                        Más de
+                    </p>
+                    <h1 style="font-size: 3rem;" id="value">100</h1>
+                    <p style="margin: 0;" class="text-center descrip">
+                        pacientes operados
+                        con éxito
                     </p>
                 </div>
                 <div class="col-10 col-md-4 tresjuntos py-5">
-                    <img src="img/group.png" alt="">
-                    <br>
-                    <div class="bordes subida">
-                        <p class="text-center py-5 px-4 descrip">
-                            Más de 100 pacientes han sido operados con éxito
-                        </p>
-                    </div>
-                </div>
-                <div class="col-10 col-md-4 tresjuntos py-5">
-                    <img src="img/like.png" alt="">
+                    <img src="img/Capa_4.png" alt="">
                     <h4 class="text-center pt-5">CALIDAD</h4>
-                    <p class="text-center py-3 descrip">
-                        Resultados y recuperación inmediata
-                    </p>
                 </div>
             </div>
         </div>
@@ -182,7 +171,8 @@
             <div class="row justify-content-around">
                 <div class="col-10 col-md-5 py-5">
                     <h3 class="titulos_parrafos">Dr. Oscar Gómez</h3>
-                    <div class="frases">
+                    <img class="raya_asd" src="img/raya.png">
+                    <div class="frases text-justify">
                         <p>
                             <i>“Trabajar en el área de reemplazo articular ha requerido de muchos años de preparación
                                 académica, dedicación, cursos especializados, capacitaciones y entrenamientos en el
@@ -190,8 +180,9 @@
                         </p>
                     </div>
                     <p class="text-justify py-3">
-                        He realizado mis estudios Superiores en la Universidad de Sao Paulo, Brasil y Post grado en
-                        Hospital das Clínicas- Sao Paulo Brasil. Actualmente soy miembro de estas importantes
+
+                        Dr. Oscar A. Gómez a realizado sus estudios Superiores en la Universidad de Sao Paulo, Brasil y
+                        Post grado en Hospital das Clínicas- Sao Paulo Brasil. Actualmente es miembro de importantes
                         Asociaciones:
                     </p>
                     <ol>
@@ -202,12 +193,13 @@
                             Miembro de la Asociación Salvadoreña de Ortopedia y Traumatología.
                         </li>
                         <li class="pt-3">
-                            Miembro Sociedad Brasileña de Ortopedia y Traumatología.
+                            Miembro Sociedad Brasileña de Ortopedia y Traumatología. pacitaciones y entrenamientos en el
+                            extranjero”.
                         </li>
                     </ol>
                 </div>
                 <div class="col-10 col-md-5 py-5">
-                    <img class="img_plan" src="img/dr.png" alt="">
+                    <img data-aos="fade-right" class="img_plan" src="img/dr.png" alt="">
                 </div>
             </div>
         </div>
@@ -217,25 +209,32 @@
         <div class="row justify-content-around">
             <div class="col-10 col-md-10">
                 <h3 class="text-center titulos_parrafos">Beneficios </h3>
+                <img class="raya" src="img/raya.png">
             </div>
-            <div class="col-10 col-md-6 tresjuntos">
+            <div class="col-10 col-md-12 tresjuntos">
                 <ul class="lista">
                     <li class="pt-3">
                         EL 100% de nuestros pacientes ganan tranquilidad, movimiento y flexibilidad sin
                         dolor en tus rodilla.
                     </li>
-                    <li class="pt-3">
+                    <li class="pt-3 noq">
                         Resultados y recuperación inmediata.
                     </li>
-                    <li class="pt-3">
+                    <li class="pt-3 noqdos">
                         Paquete de cirugía con precio accesible.
                     </li>
                 </ul>
             </div>
-            <div class="col-10 col-md-5 py-5">
-                <img class="img_plan" src="img/happy.jpg" alt="">
-                <br>
-                <br>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-around py-5">
+            <div class="col-10 col-12 pb-5">
+                <iframe width="100%" height="538" src="https://www.youtube.com/embed/ucuwsJhM4u4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -298,19 +297,22 @@
                     <div class="py-3 px-5 foot_naranja">
                         <h5> <i class="fas fa-map-marker-alt i_naranja"></i> San Salvador</h5>
                         <p>
-                            Centro Medico Las Peña, calle circunvalación #189, atrás de Centro comercial Balam Quitze, Colonia Escalón, San Salvador.
+                            Centro Medico Las Peña, calle circunvalación #189, atrás de Centro comercial Balam Quitze,
+                            Colonia Escalón, San Salvador.
                         </p>
                     </div>
                     <div class="py-3 px-5 foot_naranja">
                         <h5><i class="fas fa-map-marker-alt i_naranja"></i> Santa Ana</h5>
                         <p>
-                            alle Libertad Oriente entre 17 y 19 av. norte a pocos pasos de la Unidad de Emergencia del Hospital San Juan de Dios Santa Ana (El Salvador)
+                            alle Libertad Oriente entre 17 y 19 av. norte a pocos pasos de la Unidad de Emergencia del
+                            Hospital San Juan de Dios Santa Ana (El Salvador)
                         </p>
                     </div>
                     <div class="py-3 px-5 foot_naranja">
                         <h5><i class="fas fa-map-marker-alt i_naranja"></i> Metapán</h5>
                         <p>
-                            Avenida Isidro Menéndez y 5 Calle Oriente Barrio San Pedro, Metapán Clínicas Medicas, ex Centro Pediátrico Metapaneco.
+                            Avenida Isidro Menéndez y 5 Calle Oriente Barrio San Pedro, Metapán Clínicas Medicas, ex
+                            Centro Pediátrico Metapaneco.
                         </p>
                     </div>
                 </div>
@@ -335,6 +337,10 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

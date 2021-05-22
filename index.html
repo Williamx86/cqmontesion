@@ -13,7 +13,9 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- Mis estilos -->
-    <link rel="stylesheet" href="style.css?ver=2.0">
+    <link rel="stylesheet" href="style.css?ver=20.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/15114ea565.js" crossorigin="anonymous"></script>
@@ -31,16 +33,19 @@
                 </div>
                 <div class="menu_info">
                     <div class="menu_redes">
-                        <div class="d_flex menu_espacio">
-                            <a class="pr-4" target="_blank" href="https://wa.me/74648356">
-                                <i class="fab fa-whatsapp icn_naranja"></i>
-                            </a>
-                            <a class="pr-4" target="_blank" href="https://www.facebook.com/CQMonteSion">
-                                <i class="fab fa-facebook-f icn_naranja_dos"></i>
-                            </a>
-                            <a target="_blank" href="https://www.instagram.com/cqmontesion/?hl=es-la">
-                                <i class="fab fa-instagram icn_naranja"></i>
-                            </a>
+
+                        <div class="menu_espacio">
+                            <div>
+                                <a class="pr-4" target="_blank" href="https://wa.me/74648356">
+                                    <i class="fab fa-whatsapp icn_naranja"></i>
+                                </a>
+                                <a class="pr-4" target="_blank" href="https://www.facebook.com/CQMonteSion">
+                                    <i class="fab fa-facebook-f icn_naranja_dos"></i>
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/cqmontesion/?hl=es-la">
+                                    <i class="fab fa-instagram icn_naranja"></i>
+                                </a>
+                            </div>
                         </div>
 
                         <div class="citas text-center">
@@ -100,15 +105,15 @@
             <div class="carousel-inner">
                 <div class="carousel-item active texto_slider_home">
                     <img src="img/slid_3.png" class="d-block w-100 img_slider">
-                    <h2>Emergencias las 24 horas</h2>
+                    <h2 class="animadito">Emergencias las 24 horas</h2>
                 </div>
                 <div class="carousel-item texto_slider_home">
                     <img src="img/slid_2.jpg" class="d-block w-100 img_slider">
-                    <h2>Hospitalización las 24 horas</h2>
+                    <h2 class="animadito">Hospitalización las 24 horas</h2>
                 </div>
                 <div class="carousel-item texto_slider_home">
                     <img src="img/slid_1.png" class="d-block w-100 img_slider">
-                    <h2>Servicio de ambulancia nacional</h2>
+                    <h2 class="animadito">Servicio de ambulancia nacional</h2>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -122,37 +127,39 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row justify-content-around py-5 shadow-lg redondo_dos">
-            <div class="col-10 col-md-10 secciondos">
-                <img class="rodilla_nueva" src="img/rodilla-nueva.png">
-                <div class="pt-5">
-                    <a class="btn_celeste" href="rodilla.html">Leer Más</a>
+    <div class="azulin">
+        <div class="container">
+            <div class="row justify-content-around py-5 shadow-lg redondo_dos_o">
+                <div class="col-10 col-md-3 secciondos">
+                    <img class="rodilla_nueva" src="img/rod_n.png">
+                    <div class="pt-5">
+                        <a class="btn_celeste_tres" href="rodilla.html">Ver más</a>
+                    </div>
+                    <div class="btn_esp">
+                        <a class="btn_celeste_dos" href="aplicar.html">Aplicar aquí</a>
+                    </div>
+                </div>
+                <div class="col-10 col-md-3 secciondos">
+                    <img class="iconos_rodilla" src="img/rod_1.png" alt="">
+                    <p class="parr_rod">Experiencia</p>
+                </div>
+                <div class="col-10 col-md-3 secciondos">
+                    <img class="iconos_rodilla_dos" src="img/rod_2.png" alt="">
+                    <p class="parr_rod">Paquete de Rodilla Nueva con presupuesto accesible</p>
+                </div>
+                <div class="col-10 col-md-3 secciondos">
+                    <img class="iconos_rodilla" src="img/rod_3.png" alt="">
+                    <p class="parr_rod">
+                        Deja de sufrir con tu dolor de rodilla, este metodo te permitira caminar
+                        saludablemente
+                    </p>
                 </div>
             </div>
-            <!-- <div class="col-10 col-md-3 secciondos">
-                <img class="iconos_rodilla" src="img/experiencia.png" alt="">
-                <h5>EXPERIENCIA</h5>
-            </div>
-            <div class="col-10 col-md-3 secciondos">
-                <img class="iconos_rodilla" src="img/tecnologia.png" alt="">
-                <h5>TECNOLOGÍA</h5>
-                <p>
-                    Paquete rodilla nueva, con presupuesto accesible.
-                </p>
-            </div>
-            <div class="col-10 col-md-3 secciondos">
-                <img class="iconos_rodilla" src="img/dinero.png" alt="">
-                <h5>PRESUPUESTO A LA MEDIDA</h5>
-                <p>
-                    Deja de sufrir con tu dolor de rodilla, este método te permitirá caminar sin complicaciones.
-                </p>
-            </div> -->
         </div>
     </div>
 
     <footer class="foot">
-        <div class="container foot_espacio">
+        <div class="container foot_espacio_uno">
             <div class="row justify-content-around foot_blanco">
                 <!-- <div class="col-10 col-md-4 foot_seccion">
                     <h4>ESCRÍBENOS</h4>
@@ -209,19 +216,22 @@
                     <div class="py-3 px-5 foot_naranja">
                         <h5> <i class="fas fa-map-marker-alt i_naranja"></i> San Salvador</h5>
                         <p>
-                            Centro Medico Las Peña, calle circunvalación #189, atrás de Centro comercial Balam Quitze, Colonia Escalón, San Salvador.
+                            Centro Medico Las Peña, calle circunvalación #189, atrás de Centro comercial Balam Quitze,
+                            Colonia Escalón, San Salvador.
                         </p>
                     </div>
                     <div class="py-3 px-5 foot_naranja">
                         <h5><i class="fas fa-map-marker-alt i_naranja"></i> Santa Ana</h5>
                         <p>
-                            alle Libertad Oriente entre 17 y 19 av. norte a pocos pasos de la Unidad de Emergencia del Hospital San Juan de Dios Santa Ana (El Salvador)
+                            alle Libertad Oriente entre 17 y 19 av. norte a pocos pasos de la Unidad de Emergencia del
+                            Hospital San Juan de Dios Santa Ana (El Salvador)
                         </p>
                     </div>
                     <div class="py-3 px-5 foot_naranja">
                         <h5><i class="fas fa-map-marker-alt i_naranja"></i> Metapán</h5>
                         <p>
-                            Avenida Isidro Menéndez y 5 Calle Oriente Barrio San Pedro, Metapán Clínicas Medicas, ex Centro Pediátrico Metapaneco.
+                            Avenida Isidro Menéndez y 5 Calle Oriente Barrio San Pedro, Metapán Clínicas Medicas, ex
+                            Centro Pediátrico Metapaneco.
                         </p>
                     </div>
                 </div>
@@ -239,13 +249,21 @@
     <span class="ir-arriba"> <i class="fas fa-chevron-up"></i> </span>
 
     <!-- Archivos necesarios Boostarp -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $('.carousel').carousel({
+            interval: 2500
+        })
+    </script>
 </body>
 
 </html>

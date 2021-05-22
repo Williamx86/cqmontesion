@@ -50,8 +50,8 @@
 }
 
 .nuevo_co {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .nuevo_co h4 {
@@ -78,10 +78,15 @@
 
 .parra{
     margin: 0;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 0 1rem;
 }
 
 .menu_espacio {
     padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.2rem;
 }
 
 .icn_naranja {
@@ -223,6 +228,7 @@
 }
 
 .rodilla_nueva {
+    width: 87%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -246,6 +252,13 @@
     background-color: #ffffff;
 }
 
+.redondo_dos_o {
+    border-radius: 1rem;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    border: 22px solid #ffffff;
+}
+
 .partes {
     display: block;
     margin: auto;
@@ -259,6 +272,68 @@
 
 .iconos_rodilla {
     padding-bottom: 1rem;
+    width: 64px;
+}
+
+.iconos_rodilla_dos {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 64px;
+}
+
+.parr_rod{
+    font-size: 1.2rem;
+}
+
+.btn_celeste_dos {
+    background-color: #0F93B3;
+    color: #ffffff;
+    padding: 0.6rem 1.5rem;
+    text-decoration: none;
+    transition: all 0.5s;
+    border: 1px solid #0F93B3;
+}
+
+.btn_celeste_dos:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    color: #0F93B3;
+}
+
+.btn_celeste_tres {
+    background-color: #0F93B3;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.5s;
+    border: 1px solid #0F93B3;
+    padding: 0.6rem 2.35rem;
+}
+
+.btn_esp{
+    padding-top: 2rem;
+}
+
+.raya{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    object-fit: contain;
+    width: 200px;
+}
+
+.raya_asd{
+    display: block;
+    padding-bottom: 3rem;
+    object-fit: contain;
+    width: 200px;
+}
+
+.btn_celeste_tres:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    color: #0F93B3;
 }
 
 .btn_celeste {
@@ -348,6 +423,14 @@
     padding: 4rem 0;
 }
 
+.negr{
+    text-shadow: 1px 0px 30px rgb(150 150 150);
+}
+
+.foot_espacio_uno {
+    padding: 0rem 0 4rem 0;
+}
+
 .foot_blanco {
     background-color: #ffffff;
     border-radius: 1rem;
@@ -387,9 +470,27 @@
     line-height: 2rem;
 }
 
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.chevy{
+    object-fit: contain;
+    width: 32px;
+    margin: 0 1rem 0.5rem 0;
+}
+
 .titulos_parrafos {
     color: var(--azul);
     padding: 4rem 0 1.5rem 0;
+    text-transform: uppercase;
+}
+
+.titulos_parrafos_con {
+    color: var(--azul);
+    padding: 4rem 0 0rem 0;
     text-transform: uppercase;
 }
 
@@ -438,9 +539,57 @@
     text-align: justify;
 }
 
+@keyframes uno {
+    0%   {
+        top: -100%;
+    }
+    100%  {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.animadito{
+    animation-name: uno;
+    animation-duration: 1s;
+}
+
+.porrr{
+    color: var(--azul);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .lista {
-    padding-top: 3rem;
     padding-bottom: 4rem;
+    list-style: none;
+}
+
+.lista li::before {
+    content: "\2022";
+    color: var(--naranja);
+    font-weight: bold;
+    font-size: 3rem;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.noq{
+    transform: translateX(10%);
+}
+
+.noqdos{
+    transform: translateX(20%);
+}
+
+.infi{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
 }
 
 .naranja_fondo {
@@ -497,6 +646,10 @@
     margin: auto;
     width: 100%;
     object-fit: contain;
+}
+
+.azulin{
+    background-color: var(--azul);
 }
 
 @media only screen and (max-width: 1080px) {
@@ -563,6 +716,16 @@
 }
 
 @media only screen and (max-width: 900px){
+    .noq{
+        transform: translateX(0);
+    }
+    
+    .noqdos{
+        transform: translateX(0);
+    }
+    .azulin{
+        background-color:#ffffff;
+    }
     .texto_slider_home h2 {
         position: absolute;
         color: #ffffff;
@@ -575,6 +738,12 @@
         transform: translate(-50%, -50%);
     }
     .redondo_dos {
+        border-radius: 1rem;
+        transform: translateY(0);
+        background-color: #ffffff;
+    }
+
+    .redondo_dos_o {
         border-radius: 1rem;
         transform: translateY(0);
         background-color: #ffffff;
