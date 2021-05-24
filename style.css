@@ -324,6 +324,14 @@
     width: 200px;
 }
 
+.raya_pos{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    object-fit: contain;
+    width: 200px;
+}
+
 .raya_asd{
     display: block;
     padding-bottom: 3rem;
@@ -481,7 +489,7 @@
 .chevy{
     object-fit: contain;
     width: 32px;
-    margin: 0 1rem 0.5rem 0;
+    margin: 0 1rem 0rem 0;
 }
 
 .titulos_parrafos {
@@ -659,6 +667,30 @@
     background-color: var(--azul);
 }
 
+.vidas{
+    font-size: 3rem;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+.mrcuatro{
+    margin-right: 1.5rem;
+}
+
+.cuentas{
+    color: var(--azul);
+}
+
+.pep{
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.bos{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1080px) {
     .alinear_co {
         text-align: center;
@@ -801,6 +833,65 @@
     .divi{
         width: 100%;
     }
+    .chevy{
+        margin: 0 0.1rem 0.5rem 0;
+    }
+    .ir-arriba {
+        display: none !important;
+    }
+    .vidas{
+        font-size: 2rem;
+        font-weight: 400;
+        white-space: pre-wrap;
+    }
+    .raya_asd{
+        margin: 0 auto;
+    }
+    .lista li::before {
+        content: "\2022";
+        color: var(--naranja);
+        font-weight: bold;
+        font-size: 1.3rem;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1.2em;
+    }
+    .lista li{
+        text-align: left;
+    }
+    .didi{
+        text-align: center;
+    }
+    .img_slider_paginas {
+        height: 30vh;
+        object-fit: cover;
+    }
+    .img_slider {
+        height: 90vh;
+        object-fit: cover;
+    }
+    .nuevo_co h4 {
+        padding: 2.5rem 0;
+        font-size: 1.4rem;
+    }
+    .raya_pos{
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 0rem;
+        object-fit: contain;
+        width: 200px;
+    }
+    .infi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mrcuatro{
+        margin-right: 0;
+    }
+    
 }
 
 @media only screen and (min-width: 1080px) {
