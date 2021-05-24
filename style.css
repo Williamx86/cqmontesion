@@ -256,7 +256,9 @@
     border-radius: 1rem;
     transform: translateY(-50%);
     background-color: #ffffff;
-    border: 22px solid #ffffff;
+    border-style: solid;
+    border-width: 20px 40px;
+    border-color: #ffffff;
 }
 
 .partes {
@@ -596,6 +598,11 @@
     background-color: var(--naranja);
 }
 
+.parrafito{
+    margin-left: 2rem;
+    text-align: justify;
+}
+
 .descrip {
     font-size: 1.2rem;
 }
@@ -744,7 +751,7 @@
     }
 
     .redondo_dos_o {
-        border-radius: 1rem;
+        border-radius: 0rem;
         transform: translateY(0);
         background-color: #ffffff;
     }
@@ -752,6 +759,47 @@
     .copycopy{
         background-color: var(--azul);
         color: #ffffff;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .loquit{
+        display: none;
+    }
+    .cajita_footer{
+        display: block;
+    }
+    .cajita_dos{
+        align-items: center;
+    }
+    .parrafito{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .btn_celeste_dos {
+        text-align: center;
+        background-color: #0F93B3;
+        color: #ffffff;
+        display: block;
+        width: 100%;
+        padding: 0.6rem 0;
+        text-decoration: none;
+        transition: all 0.5s;
+        border: 1px solid #0F93B3;
+    }
+    .btn_celeste_tres {
+        background-color: #0F93B3;
+        color: #ffffff;
+        display: block;
+        width: 100%;
+        padding: 0.6rem 0;
+        text-decoration: none;
+        transition: all 0.5s;
+        border: 1px solid #0F93B3;
+    }
+    .divi{
+        width: 100%;
     }
 }
 
