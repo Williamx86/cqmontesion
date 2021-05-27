@@ -1,6 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'Billy';
+    src: url('../fonts/Billy.ttf');
+ }
+
 :root {
     --naranja: #ff6103;
     --azul: #072754;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.bill{
+    font-family: 'Billy';
+    font-size: 2.3rem;
+}
+
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.open_b{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 .menu_principal {
@@ -81,6 +106,8 @@
     border-right: 1px solid #000;
     border-left: 1px solid #000;
     padding: 0 1rem;
+    font-weight: 500;
+    color: var(--azul);
 }
 
 .menu_espacio {
@@ -114,6 +141,9 @@
     padding: 1rem 2rem;
     color: #ffffff;
     transition: all 0.4s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .secundario_dos {
@@ -510,10 +540,17 @@
     align-items: center;
 }
 
-.img_plan {
+.img_plan_ {
     display: block;
     margin: 0 auto;
     width: 100%;
+}
+
+.img_plan_dos {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 6.5rem;
 }
 
 .celeste {
@@ -755,6 +792,11 @@
 }
 
 @media only screen and (max-width: 900px){
+    .img_plan_dos {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
     .noq{
         transform: translateX(0);
     }
