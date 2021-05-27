@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Billy';
-    src: url('../fonts/Billy.ttf');
+    src: url('fonts/Billy.ttf');
  }
 
 :root {
