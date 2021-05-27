@@ -837,6 +837,13 @@ body{
 }
 
 @media only screen and (max-width:768px) {
+    .bill {
+        font-family: 'Billy';
+        font-size: 2rem;
+        /* margin-top: 1rem; */
+        display: inline-block;
+        padding-top: 1rem;
+    }
     .loquit{
         display: none;
     }
