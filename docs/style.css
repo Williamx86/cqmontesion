@@ -12,11 +12,16 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 .bill{
     font-family: 'Billy';
     font-size: 2.3rem;
+}
+
+.ocean{
+    transform: translateY(-40px);
 }
 
 .open{
@@ -50,6 +55,13 @@ body{
     width: 250px;
 }
 
+.menu_logo_foo img {
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .cajota{
     display: flex;
     flex-direction: column;
@@ -65,7 +77,7 @@ body{
 .cajita_dos{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
 }
 
 .menu_info {
@@ -215,6 +227,16 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.texto_slider_nef h1 {
+    position: absolute;
+    color: #000;
+    font-size: 3.5rem;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .texto_slider h3 {
     position: absolute;
     color: var(--azul);
@@ -243,12 +265,37 @@ body{
 }
 
 .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff6103' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff6103' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
 
 .secciondos {
     display: flex;
@@ -486,6 +533,10 @@ body{
     color: #000000;
 }
 
+.foot_naranja p{
+    line-height: 2rem;
+}
+
 .i_naranja {
     color: var(--naranja);
 }
@@ -529,6 +580,12 @@ body{
 }
 
 .titulos_parrafos_con {
+    color: var(--azul);
+    padding: 4rem 0 0rem 0;
+    text-transform: uppercase;
+}
+
+.titulos_parrafos_cone {
     color: var(--azul);
     padding: 4rem 0 0rem 0;
     text-transform: uppercase;
@@ -602,6 +659,10 @@ body{
     animation-duration: 1s;
 }
 
+.pudin{
+    padding: 3rem 0 2rem 0;
+}
+
 .porrr{
     color: var(--azul);
     text-align: center;
@@ -646,6 +707,12 @@ body{
 .parrafito{
     margin-left: 2rem;
     text-align: justify;
+}
+
+.parrafito:last-child{
+    margin-left: 2rem;
+    text-align: justify;
+    width: 130px;
 }
 
 .descrip {
@@ -792,6 +859,31 @@ body{
 }
 
 @media only screen and (max-width: 900px){
+    .texto_slider_nef h1 {
+        position: absolute;
+        color: #000;
+        font-size: 2rem;
+        white-space: pre;
+        font-weight: bold;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .menu_logo_foo img {
+        display: block;
+        object-fit: cover;
+        margin: 0 auto;
+        width: 275px;
+    }
+    .foot_espacio {
+        padding: 4rem 0;
+        overflow-x: hidden;
+    }
+    
+    .foot_espacio_uno {
+        padding: 0rem 0 4rem 0;
+        overflow-x: hidden;
+    }
     .img_plan_dos {
         display: block;
         margin: 0 auto;
@@ -834,9 +926,34 @@ body{
         background-color: var(--azul);
         color: #ffffff;
     }
+    .parrafito:last-child{
+        margin-left: 0;
+        text-align: center;
+        width: auto;
+        margin-top: 1rem;
+    }
 }
 
 @media only screen and (max-width:768px) {
+    .pudin{
+        padding: 0rem 0 0rem 0;
+    }
+    .titulos_parrafos_cone {
+        color: var(--azul);
+        padding: 2rem 0 0rem 0;
+        text-transform: uppercase;
+    }
+    .carousel-control-prev-icon {
+        width: 30px;
+        height: 30px;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff6103' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff6103' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
     .bill {
         font-family: 'Billy';
         font-size: 2rem;

@@ -1,3 +1,5 @@
+var hecho = 1;
+
 $(document).ready(function(){
 
 	$('.ir-arriba').click(function(){
@@ -16,7 +18,7 @@ $(document).ready(function(){
 
 });
 
-function animateValue(obj, start, end, duration) {
+function animateValue(obj, start, end, duration, si) {
 	let startTimestamp = null;
 	const step = (timestamp) => {
 	  if (!startTimestamp) startTimestamp = timestamp;
@@ -27,8 +29,20 @@ function animateValue(obj, start, end, duration) {
 	  }
 	};
 	window.requestAnimationFrame(step);
+	hecho = si;
   }
   
   const obj = document.getElementById("value");
-  animateValue(obj, 30, 100, 4000);
+
+  window.addEventListener('scroll',function(){
+	  let animacion = document.getElementById('animado');
+	  let posicion = animacion.getBoundingClientRect().top;
+	  console.log(posicion);
+	  let pantalla = window.innerHeight/1.5;
+
+	  if(posicion < pantalla && hecho != 0 ){
+		animateValue(obj, 30, 100, 4000, 0);
+		console.log(hecho);
+	  }
+  })
   
