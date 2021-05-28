@@ -316,6 +316,14 @@ body{
     object-fit: contain;
 }
 
+.ui {
+    width: 350px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    object-fit: cover;
+}
+
 .redondo {
     border-radius: 1rem;
     background-color: #ffffff;
@@ -863,6 +871,13 @@ body{
 }
 
 @media only screen and (max-width: 900px){
+    .ui {
+        width: 85%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        object-fit: cover;
+    }
     .texto_slider_nef h1 {
         position: absolute;
         color: #000;
