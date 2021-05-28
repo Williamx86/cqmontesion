@@ -24,6 +24,10 @@ body{
     transform: translateY(-40px);
 }
 
+.oceanu{
+    transform: translateY(-28px);
+}
+
 .open{
     font-family: 'Open Sans', sans-serif;
 }
