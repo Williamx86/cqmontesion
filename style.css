@@ -882,7 +882,7 @@ body{
         position: absolute;
         color: #000;
         font-size: 2rem;
-        white-space: pre;
+        text-align: center;
         font-weight: bold;
         top: 50%;
         left: 50%;
