@@ -57,6 +57,7 @@ body{
     display: block;
     object-fit: contain;
     width: 250px;
+    padding: 1rem 0;
 }
 
 .menu_logo_foo img {
@@ -64,6 +65,7 @@ body{
     object-fit: cover;
     margin: 0 auto;
     width: 100%;
+    padding-top: 1rem;
 }
 
 .cajota{
@@ -669,6 +671,24 @@ body{
 .animadito{
     animation-name: uno;
     animation-duration: 1s;
+}
+
+@keyframes dos {
+    0%   {
+        left: -100%;
+        top: 50%;
+        transform: translate(-100%, -50%);
+    }
+    100%  {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.animadito_dos{
+    animation-name: dos;
+    animation-duration: 0.6s;
 }
 
 .pudin{
